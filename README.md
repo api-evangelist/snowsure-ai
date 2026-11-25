@@ -1,4 +1,4 @@
-# snowsure-ai
+# SnowSure
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,150 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-snowsure-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://snowsure.ai/
+SnowSure.ai is a US‑based company providing real‑time snow conditions, 14‑day multi‑model forecasts, and verified SnowSure™ scores for over 600 ski resorts worldwide. It aggregates data from seven weather models, historical snowfall records, and user‑submitted local reports, updating hourly. The platform offers free access to current conditions and forecasts, with an optional Pro subscription for extended forecasts and advanced tools. SnowSure also supplies an OpenAPI specification and a hosted MCP server for AI agents.
+
+**Areas:** Snow · Weather · Forecast · Ski Resorts · Real-Time Data
+
+## SnowSure on APIs.io
+
+Everything profiled for SnowSure is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/snowsure-ai/](https://apis.io/providers/snowsure-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (16)
+
+- [SnowSure AI Data API](https://apis.io/apis/snowsure-ai/snowsure-ai-ai-data-api/) — AI-optimized endpoints for chatbots and assistants
+- [SnowSure Batch API](https://apis.io/apis/snowsure-ai/snowsure-ai-batch-api/) — Multi-request batching
+- [SnowSure El Niño API](https://apis.io/apis/snowsure-ai/snowsure-ai-el-ni-o-api/) — Resort-level 30-year El Niño / ENSO signal dataset (143 stations). Attribution required: Data: SnowSure El Niño Signal.
+- [SnowSure Forecast Trust API](https://apis.io/apis/snowsure-ai/snowsure-ai-forecast-trust-api/) — Forecast verification, model skill, and ground-truth mix
+- [SnowSure Forecasts API](https://apis.io/apis/snowsure-ai/snowsure-ai-forecasts-api/) — The Forecasts API from SnowSure — 1 operation(s) for forecasts.
+- [SnowSure Images API](https://apis.io/apis/snowsure-ai/snowsure-ai-images-api/) — Auto-updating PNG share cards
+- [SnowSure Jobs API](https://apis.io/apis/snowsure-ai/snowsure-ai-jobs-api/) — Asynchronous job submission and polling
+- [SnowSure Journal API](https://apis.io/apis/snowsure-ai/snowsure-ai-journal-api/) — SnowSure journal posts: daily snow reports and Storm Watch
+- [SnowSure Maps API](https://apis.io/apis/snowsure-ai/snowsure-ai-maps-api/) — Regional forecast map assets (PNG)
+- [SnowSure ML/AI Trends API](https://apis.io/apis/snowsure-ai/snowsure-ai-ml-ai-trends-api/) — SnowSure ML and AI trend endpoints — scores, verification, powder/bluebird, component breakdowns
+- [SnowSure NL Web API](https://apis.io/apis/snowsure-ai/snowsure-ai-nlweb-api/) — NLWeb-compatible conversational endpoints
+- [SnowSure Resorts API](https://apis.io/apis/snowsure-ai/snowsure-ai-resorts-api/) — Ski resort data and conditions
+- [SnowSure Snow Report API](https://apis.io/apis/snowsure-ai/snowsure-ai-snow-report-api/) — Global snow rankings and reports
+- [SnowSure Stations API](https://apis.io/apis/snowsure-ai/snowsure-ai-stations-api/) — The Stations API from SnowSure — 4 operation(s) for stations.
+- [SnowSure Status API](https://apis.io/apis/snowsure-ai/snowsure-ai-status-api/) — Machine-readable service status and SLOs
+- [SnowSure Webhooks API](https://apis.io/apis/snowsure-ai/snowsure-ai-webhooks-api/) — Webhook subscription management
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Snowsure Ai Webhooks](https://apis.io/asyncapis/snowsure-ai/snowsure-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [SnowSure Agentic Access](https://apis.io/agentic-access/snowsure-ai/snowsure-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ResortDetailResponse](https://apis.io/schemas/snowsure-ai/snowsure-ai-resort-detail-response/)
+- [ResortMonthlySnowResponse](https://apis.io/schemas/snowsure-ai/snowsure-ai-resort-monthly-snow-response/)
+- [ResortSnowfallHistoryResponse](https://apis.io/schemas/snowsure-ai/snowsure-ai-resort-snowfall-history-response/)
+- [ResortsResponse](https://apis.io/schemas/snowsure-ai/snowsure-ai-resorts-response/)
+- [SnowDataResponse](https://apis.io/schemas/snowsure-ai/snowsure-ai-snow-data-response/)
+- [StationSnowingNowResponse](https://apis.io/schemas/snowsure-ai/snowsure-ai-station-snowing-now-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Snowsure Ai Context](https://apis.io/jsonld/snowsure-ai/snowsure-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SnowSure API Rules](https://apis.io/rules/snowsure-ai/snowsure-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SnowSure Authentication](https://apis.io/security/snowsure-ai/snowsure-ai-authentication/)
+- [SnowSure Domain Security](https://apis.io/security/snowsure-ai/snowsure-ai-domain-security/)
+- [SnowSure Vulnerability Disclosure](https://apis.io/security/snowsure-ai/snowsure-ai-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SnowSure Plans Pricing](https://apis.io/plans/snowsure-ai/snowsure-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://snowsure.ai/)
+- [Documentation](https://www.snowsure.ai/)
+- [Getting started](https://www.snowsure.ai/)
+- [API reference](https://www.snowsure.ai/)
+- [Support](https://www.snowsure.ai/help)
+- [Terms of service](https://www.snowsure.ai/terms)
+- [Privacy policy](https://www.snowsure.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 58.8** — strong · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 78.6 |
+| Contract quality | 67.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.8 |
+| Developer ergonomics | 68.3 |
+| Access clarity | 27.7 |
+
+**Agent readiness 71.7** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/snowsure-ai/](https://apis.io/providers/snowsure-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SnowSure: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/snowsure-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
